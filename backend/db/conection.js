@@ -3,8 +3,8 @@ const mysql = require('mysql2')
 const connection = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'root',
-  database: 'controle_mensalidade'
+  password: '',
+  database: 'controleMensalidde'
 })
 
 connection.query('SELECT * FROM Alunos', function(err, results, fields){
